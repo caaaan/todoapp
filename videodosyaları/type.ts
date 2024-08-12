@@ -1,7 +1,7 @@
 let city = "New York"; // string
 let population = 8400000; // number
-const age = 32; // number
-let oldAge = 79 as const; //number
+const age = 32; // number hatalı direkt 32
+let oldAge = 79 as const; //number hatalı direkt 79
 let newAge = oldAge; // number
 let data = new Map();  // hashmap? array
 let score = [90, 86, 100]; // number array
