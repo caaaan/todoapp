@@ -1,0 +1,17 @@
+import {createTheme, ThemeOptions} from '@mui/material';
+
+
+export const customTheme: ThemeOptions = createTheme({
+    palette: {
+        mode: 'dark',
+        primary: {
+            light: 'rgba(165,85,247,.80)',
+            main: 'rgba(165,85,247,.65)',
+            dark: 'rgba(165,85,247,.28)'
+        },
+        background:{
+            paper: '#151515',
+            default: 'rgba(0,0,0,.96)'
+        }
+    }
+});
