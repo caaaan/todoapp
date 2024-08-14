@@ -1,10 +1,8 @@
 import React, {FC, ReactElement} from 'react';
 import { Grid, Avatar, Box, Typography } from '@mui/material';
 import { PropTypes } from '@mui/material';
+import { IProfile } from '../../interfaces/IProfile';
 
-interface IProfile{
-    name?: string;
-}
 export const Profile: FC<IProfile> = (props): ReactElement =>{
      const{name = "USER"} = props;
     return (
