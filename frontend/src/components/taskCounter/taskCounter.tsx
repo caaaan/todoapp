@@ -4,7 +4,7 @@ import { ITaskCounter } from "../../interfaces/ITaskCounter";
 import { Status } from "../createTaskForm/enums/Status";
 import { emitCorrectBorderColor } from "../../helpers/emitCorrectBorderColor";
 import { emitCorrectLabel } from '../../helpers/emitCorrectLabel';
-import { Priority } from "../createTaskForm/enums/Priority";
+
 
 export const TaskCounter: FC<ITaskCounter> = (props,): ReactElement=>{
     const{count= 0, status= Status.completed}= props;
