@@ -12,7 +12,7 @@ import { renderPriorityColor } from "../../helpers/renderPriorityColor";
 export const Task: FC<ITask> = (props): ReactElement => {
     const {title = "Test Title", date = DateTime.now(), description = "Task description" , 
         priority = Priority.normal, status = Status.todo,
-        onStatusChange = (e) => console.log(e), onClick = (e) => console.log(e)} = props;
+        onStatusChange = (e) => console.log(e), onClick = (e) => console.log(e), id} = props;
     return (
     <Box display={"flex"} flexDirection={"column"} width= "100%" 
     justifyContent={"flex-start"} mb={4} p={2} sx={{
@@ -24,7 +24,7 @@ export const Task: FC<ITask> = (props): ReactElement => {
     }}>
         <TaskHeader title={title} date={date}/>
         <TaskDescription description={description}/>
-        <TaskFooter onStatusChange={onStatusChange} onClick={onClick}/>
+        <TaskFooter onStatusChange={onStatusChange} onClick={onClick} id={id as string} status={status}/>
     </Box>
     );
 }

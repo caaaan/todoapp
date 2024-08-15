@@ -14,7 +14,12 @@ dotenv.config();
 
 app.use(bodyParser.json());
 
-app.use(cors());
+app.use(cors({
+    origin: '*', // Allow all origins
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow methods
+    allowedHeaders: ['Content-Type', 'Authorization'] // Allow headers
+}));
+app.options('*', cors());
 
 export const AppDataSource = new DataSource({
     type: "mysql",
