@@ -3,7 +3,8 @@ import dotenv from "dotenv";
 import {DataSource} from "typeorm";
 import cors from "cors";
 import bodyParser from "body-parser";
-import { Task } from "./tasks/taskEntity";
+import { Task } from "./entities/taskEntity";
+import { taskRouter } from "./routes/taskRouter";
 
 
 
@@ -19,9 +20,9 @@ export const AppDataSource = new DataSource({
     type: "mysql",
     host: "localhost",
     port: 3306,
-    //username: process.env.MYSQL_USER,
-   // password: process.env.MYSQL_PASSWORD,
-   // database: process.env.MYSQL_DB,
+    username: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DB,
     entities: [Task],
     synchronize: true,
 
@@ -42,4 +43,6 @@ AppDataSource.initialize().then(()=>{
 }).catch((err)=>{
     console.log("error during datasource initialization: " , err);
 });
+
+app.use('/',taskRouter);
 
