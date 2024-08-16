@@ -1,4 +1,4 @@
-import React, {FC, ReactElement, useState, useEffect} from 'react';
+import React, {FC, ReactElement, useState, useEffect, useContext} from 'react';
 import {Box,Typography, Stack, Button, Alert, AlertTitle, LinearProgress} from '@mui/material';
 import { TaskTitleField } from './_taskTitleField';
 import { TaskDescriptionField } from './_taskDescriptionField';
@@ -10,6 +10,7 @@ import { DateTime } from 'luxon';
 import { useMutation } from 'react-query';
 import { ICreateTask } from '../../interfaces/ICreateTasks';
 import { sendApiRequest } from '../../helpers/sendApiRequest';
+import { TaskStatusChangedContext } from '../../context';
 
 export const CreateTaskForm: FC = (): ReactElement =>{
 
@@ -19,6 +20,8 @@ export const CreateTaskForm: FC = (): ReactElement =>{
     const [status, setStatus] = useState<string>(Status.todo);
     const [priority, setPriority] = useState<string>(Priority.normal);
     const [showSuccess, setShowSuccess] = useState<boolean>(false);
+
+    const tasksUpdatedContext = useContext(TaskStatusChangedContext);
 
     const createTaskMutation = useMutation((data: ICreateTask) =>
         {
@@ -44,6 +47,7 @@ export const CreateTaskForm: FC = (): ReactElement =>{
     useEffect(()=>{
         if(createTaskMutation.isSuccess){
             setShowSuccess(true);
+            tasksUpdatedContext.toggle();
         }
         const successTimeout = setTimeout(()=>{setShowSuccess(false)},5000);
 

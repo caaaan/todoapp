@@ -18,7 +18,7 @@ export const TaskCounter: FC<ITaskCounter> = (props,): ReactElement=>{
             marginBottom: "16px",
             borderColor: `${emitCorrectBorderColor(status)}`,
         }}>
-            <Typography color="#ffffff" variant="h4">10</Typography>
+            <Typography color="#ffffff" variant="h4">{count}</Typography>
         </Avatar>
         <Typography color="#ffffff" fontWeight="Weight" fontSize="20px" variant="h5">{emitCorrectLabel(status)}</Typography>
     </Box>;

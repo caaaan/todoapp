@@ -8,7 +8,7 @@ export const countTasks = (tasks: ITaskApi[],status: TaskCounterStatusType): num
     }
 
     const totalTasks = tasks.filter((task)=>{
-        return task.status = status;
+        return task.status === status;
     });
 
     return totalTasks.length;

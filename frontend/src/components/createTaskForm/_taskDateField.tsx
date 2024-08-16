@@ -5,14 +5,12 @@ import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TextField } from '@mui/material';
 import { IDateField } from '../../interfaces/IDateField';
-import { PropTypes } from '@mui/material';
-
 
 
 export const TaskDateField: FC<IDateField> = (props,): ReactElement => {
   
   const{value = DateTime.now(), disabled = false, onChange = (date: DateTime | null)=>{console.log(date)}} = props;
-  console.log(value);
+
   return (
     <>
       <LocalizationProvider dateAdapter={AdapterLuxon}>
