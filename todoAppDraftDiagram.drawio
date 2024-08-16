@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1578" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-0" target="2kh8dA-jSwdjhsXgR2KO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-0" value="app&#39;e girilir" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205.5" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.29999999999995" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-1" value="useQuery fonksiyonu ile server&#39;a get request&#39;i yollanıyor ve taskların verisi alınıyor" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200.5" y="180" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.29999999999995" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-7" value="veriye göre task counterlar ve task area doluyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205.5" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375.5" y="460.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-9" value="task eklenecek mi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="215.5" y="410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.29999999999995" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-12" value="tüm alanların doldurulması bekleniyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="365.5" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-14" value="düğmeye tıklanınca server&#39;a post request gönderiliyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="365.5" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-16" value="request başarılı olursa TaskStatusChangedContext true oluyor ve sayfa tekrar render&#39;lanarak verileri güncelliyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="355.5" y="640" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425.5" y="610" as="sourcePoint" />
+            <mxPoint x="555.5" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590.5" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-19" value="server request&#39;i alıyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540.5" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-21" target="2kh8dA-jSwdjhsXgR2KO-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-21" value="create validator ile tüm alanların dolu olduğu kontrol ediliyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540.5" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-23" value="boş alan varsa error yolluyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690.5" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-25" value="mysql database&#39;e obje gönderiliyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535.5" y="850" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200.5" y="1220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-28" target="2kh8dA-jSwdjhsXgR2KO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-28" value="typeorm entity objesi oluşturuluyor ve request&#39;ten gelen alanlarla dolduruluyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530.5" y="755" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-34" target="2kh8dA-jSwdjhsXgR2KO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-34" target="2kh8dA-jSwdjhsXgR2KO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-34" value="task in progress&#39;e veya todo&#39;ya değiştirelecek mi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="585" width="92.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-35" value="task bitti mi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="217.5" y="775" width="95" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-37" target="2kh8dA-jSwdjhsXgR2KO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-37" value="onStatusChangeHandler switch&#39;e tıklandığında server&#39;a put request atılıyor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="24" y="606" width="130" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-39" target="2kh8dA-jSwdjhsXgR2KO-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-39" value="update validator ile request&#39;te id ve status değerleri var mı kontrol ediliyor" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-41" value="değerler doğruysa seçilen objenin status&#39;u değiştirilir" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kh8dA-jSwdjhsXgR2KO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1.008;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2kh8dA-jSwdjhsXgR2KO-35" target="2kh8dA-jSwdjhsXgR2KO-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
