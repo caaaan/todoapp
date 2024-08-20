@@ -1,6 +1,7 @@
 # Todo App
 
 ## Prerequisites
+
 You should have node.js and npm installed on this device to be able to follow the installation of this project.
 ---
 ## Installation
