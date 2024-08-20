@@ -1,9 +1,9 @@
-#Todo App
+# Todo App
 
-##Prerequisites
+## Prerequisites
 You should have node.js and npm installed on this device to be able to follow the installation of this project.
 ---
-##Installation
+## Installation
 How to run the app
 
 Since the app consists of both the backend server, mysql and frontend there are 3 steps to run the app. 
@@ -13,15 +13,12 @@ Since the app consists of both the backend server, mysql and frontend there are 
  Now that everything for the database is done, you should build both the backend and frontend (Before continuing with this step you might want install the dependencies, check that part below!). This step only requires you to go to the frontend and backend directories on your terminal and run the command `npm run build` on both directories. 
 
  Then can run the `npm run start` on both directories simultaniously (on different terminals so that both the server and the frontend is running).
-
-
 ---
-
-##Dependencies
-###Downloading dependencies
+## Dependencies
+### Downloading dependencies
  You can install all the necessary dependencies by going to both the frontend and backend directories and simply running the `npm install` commands. If there are any problems with that command and your terminal gives you a missing dependency error you can check whats missing from the list of directories below (sometimes some functionalities change with the dependency version, so if you encounter errors with the dependencies you might need to check that as well!).
 
-###List of backend dependencies:
+### List of backend dependencies:
 1. "dependencies":
     - "@types/cors": "^2.8.17",
     - "@types/express": "^4.17.21",
@@ -39,8 +36,8 @@ Since the app consists of both the backend server, mysql and frontend there are 
     - "ts-node": "^10.9.2",
     - "typeorm": "^0.3.20"
 
-###List of frontend dependencies:
-  2. "dependencies": 
+### List of frontend dependencies:
+2. "dependencies": 
     - "@emotion/react": "^11.13.0",
     - "@emotion/styled": "^11.13.0",
     - "@mui/material": "^5.16.7",
