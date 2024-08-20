@@ -1,11 +1,10 @@
 # Todo App
 
 ## Prerequisites
-
-You should have node.js and npm installed on this device to be able to follow the installation of this project.
+ You should have node.js and npm installed on this device to be able to follow the installation of this project.
 ---
 ## Installation
-How to run the app
+_How to run the app_
 
 Since the app consists of both the backend server, mysql and frontend there are 3 steps to run the app. 
 
